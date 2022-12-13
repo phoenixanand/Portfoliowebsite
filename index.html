@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Anand</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+        </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Electronics and Communication Engineer</p>
+                    <h1>hello everyone, <br> I'm <span>Anand</span> from Tirunelveli</h1>
+                </div>
+            </div>
+        </div>
+    <div class="section">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                     <div class="col-1">
+                        <img src="images/pic.jpeg">
+                     </div>
+                     <div class="col-2">
+                        <h1 class="subtitle">About me</h1>
+                        <p>
+                            Enthusiastic Software developer eager to contribute to team success through hard work, attention to detail and excellent
+                            organizational skills.<br> Hardworking and passionate job seeker with strong organizational skills eager to secure 
+                            entry-level position.
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                        </div>
+                        <div class="tab-contents active-tabs" id="skills">
+                            <ul>
+                                <li><span>Electronics and Communication Engineering</span><br>Engineer</li>
+                                <li><span>Web developer</span><br>Intermediate</li>
+                                <li><span>C programming</span><br>Intermediate</li>
+                                <li><span>HTML & CSS</span><br>Intermediate</li>
+                                <li><span>Javascript</span><br>Intermediate</li>
+                                <li><span>Python</span> <br>Begineer</li>
+                                <li><span>Crypto Trading</span><br>Analyst</li>
+
+                        
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <!-- <li><span>ui/us</span><br>designing web</li> -->
+                                <!-- <li><span>Web developer</span><br>designing web</li> -->
+                                <li><span>Crypto Analysis and trading</span><br>0-1.5 yr experience in Analysis of technical analysis and fundamendal analysis</li>
+
+                        
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016-06<br>2017-04</span><br>Secondary Education<br>Vedic Vidyashram Senior Secondary School-Tirunelveli.<br>Precentage:89%</li>
+                                <li><span>2018-06<br>2019-03</span><br>Higher Secondary Education<br>Vedic Vidyashram Senior Secondary School-Tirunelveli.<br> Percentage:71.4%</li>
+                                <li><span>2019-08<br>Current</span><br>B.E-Electronics and Communication Engineering<br>Anna University Regional Campus-Tirunelveli.</li>
+
+                        
+                            </ul>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="service">
+            <div class="container">
+                <h1 class="sub-title">My Service</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-bolt"></i>
+                        <h2>Cipher decoder</h2>
+                        <p>I have just cleared 144 most challenging questions conducted by 12rings which is one of the most famous platforms during the lock-down period </p>
+                        <!-- <a href="#">learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Designer</h2>
+                        <p>I have enough knowledge in HTML, CSS, and Javascript to develop a front-end website and I have attached my first food-themed project below</p>
+                        <!-- <a href="#">learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-bitcoin"></i>
+                        <h2>Crypto Analyst</h2>
+                        <p>I have good analysis in both fundamendal and technical analysis and passive income(Liquidity pools, NFT, lending & metaverse) </p>
+                        <!-- <a href="#">learn more</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/food.jpg">
+                        <div class="layer">
+                            <h3>Food themed website</h3>
+                            <p>I created a front-end website using HTML, CSS and Javascript. This is my first project in the field of web developing </p>
+                            <a href="https://phoenixanand.github.io/Phoenixfoods/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/webphishing.jpeg">
+                        <div class="layer">
+                            <h3>Web Phishing Detection</h3>
+                            <p>I have designed a web phishing Detection website using ML (Random Forest Algorithm) to detect malicious website</p>
+                            <a href="https://github.com/IBM-EPBL/IBM-Project-42635-1660672351.git"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/lifi.jpg">
+                        <div class="layer">
+                            <h3>Avoid vehicle collision using Lifi Technology</h3>
+                            <p>I have published a paper in GitHub to avoid the vehicle collision using LiFi technology</p>
+                            <a href="https://github.com/phoenixanand/Avoid-vehicle-collision.git"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contactt">
+        <div id="contact">
+            <div class="container">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="contact-list">
+                    <p><i class="fa-solid fa-envelope"></i>anandk0211@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+919025794853</p>
+                    <div class="social-icons">
+                        <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+                        <a href="https://www.instagram.com/5ta4l3_61pha/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/anand02"><i class="fa-brands fa-linkedin"></i></a>
+                        <!-- <a href=""><i class="fa-brands fa-twitter"></i></a> -->
+                    </div>
+                    <a href="images/ANAND_K.PDF" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tabs");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tabs");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        
+    </body>
+</html>
